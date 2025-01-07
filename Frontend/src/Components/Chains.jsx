@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import { API_URL } from '../Components/api'
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
-import { FaRegArrowAltCircleLeft } from "react-icons/fa";
-import { MagnifyingGlass } from 'react-loader-spinner'
-import { Link } from 'react-router-dom';
+// import { FaRegArrowAltCircleRight } from "react-icons/fa";
+// import { FaRegArrowAltCircleLeft } from "react-icons/fa";
+// import { MagnifyingGlass } from 'react-loader-spinner'
+import { Link } from 'react-dom';
 
 const Chains = () => {
     const [vendorData, setVendorData] = useState([]);

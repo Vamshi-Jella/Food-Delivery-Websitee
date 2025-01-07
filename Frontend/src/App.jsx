@@ -1,6 +1,6 @@
 import React from 'react'
 import LandingPage from './Pages/LandingPage'
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-dom'
 import './App.css'
 import ProductMenu from './Components/ProductMenu'
 

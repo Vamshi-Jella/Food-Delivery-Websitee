@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { API_URL } from "./api";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-dom";
 import Navbar from "./Navbar";
 
 const ProductMenu = () => {
